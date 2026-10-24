@@ -1,15 +1,17 @@
 import React from "react";
+
 import Card from "../components/Card";
-import Button from "../components/Button";
-import { Button as ShadCNButton } from "../components/ui/button";
+import {Button} from "../components/ui/button";
+import TopNav from "../components/top-nav/TopNav";
+
 
 function Home() {
   return (
     <div>
+      <TopNav />
       <Card content="Card 1" />
       <Card content="Card 2" />
-      <Button />
-      <ShadCNButton>Click me</ShadCNButton>
+      <Button>Click me</Button>
     </div>
   );
 }
