@@ -6,7 +6,6 @@ import { Button as ShadCNButton } from "../components/ui/button";
 function Home() {
   return (
     <div>
-      Home
       <Card content="Card 1" />
       <Card content="Card 2" />
       <Button />
