@@ -1,18 +1,18 @@
 import React from "react";
 
+import DefaultLayout from "../layouts/DefaultLayout";
+
 import Card from "../components/Card";
 import {Button} from "../components/ui/button";
-import TopNav from "../components/top-nav/TopNav";
 
 
 function Home() {
   return (
-    <div>
-      <TopNav />
+    <DefaultLayout>
       <Card content="Card 1" />
       <Card content="Card 2" />
       <Button>Click me</Button>
-    </div>
+    </DefaultLayout>
   );
 }
 

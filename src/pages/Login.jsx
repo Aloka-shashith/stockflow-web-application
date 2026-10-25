@@ -1,13 +1,12 @@
 import React from 'react'
 
-import TopNav from '../components/top-nav/TopNav'
+import DefaultLayout from "../layouts/DefaultLayout";
 
 function Login() {
   return (
-    <div>
-      <TopNav />
+    <DefaultLayout>
       Login
-    </div>
+    </DefaultLayout>
   )
 }
 
