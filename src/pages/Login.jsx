@@ -1,12 +1,12 @@
 import React from 'react'
 
-import DefaultLayout from "../layouts/DefaultLayout";
+import AuthLayout from "../layouts/AuthLayout";
 
 function Login() {
   return (
-    <DefaultLayout>
+    <AuthLayout>
       Login
-    </DefaultLayout>
+    </AuthLayout>
   )
 }
 
