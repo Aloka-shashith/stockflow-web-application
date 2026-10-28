@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+
+import { SidebarHeader, SidebarNav, SidebarProfile } from "./comp";
 
 function SideBar() {
   return (
-    <div className="w-40 ">
-      SideBar
+    <div className="flex flex-col w-60 bg-gray-100 border-r border-r-gray-400">
+      <SidebarHeader />
+      <SidebarNav />
+      <SidebarProfile />
     </div>
-  )
+  );
 }
 
-export default SideBar
+export default SideBar;
