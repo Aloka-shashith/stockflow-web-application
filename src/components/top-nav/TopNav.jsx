@@ -7,8 +7,7 @@ function TopNav() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex justify-between items-center h-16 p-4 bg-gray-200 border-b border-b-gray-700 hover:cursor-pointer">
-      <div onClick={() => navigate("/")}>StockFlow</div>
+    <div className="flex justify-end items-center h-18 p-4 bg-gray-200">
       <ShadCNButton className="hover:cursor-pointer" onClick={() => navigate("/login")}>
         Login
       </ShadCNButton>
