@@ -5,11 +5,11 @@ import TopNav from "../components/top-nav/TopNav";
 
 function DefaultLayout({ children }) {
   return (
-    <div className="flex flex-row">
+    <div className="flex min-h-screen">
       <SideBar />
       <div className="flex flex-col flex-1">
         <TopNav />
-        <div className="min-h-screen p-6 bg-orange-200 items-center justify-center">
+        <div className="flex-1 p-6 bg-gray-100">
           {children}
         </div>
       </div>
