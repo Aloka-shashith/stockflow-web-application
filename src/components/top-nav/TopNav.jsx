@@ -7,7 +7,7 @@ function TopNav() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex justify-end items-center h-18 p-4 bg-gray-200">
+    <div className="flex justify-end items-center h-19 p-4 bg-gray-100 border-b-2 border-b-gray-300">
       <ShadCNButton className="hover:cursor-pointer" onClick={() => navigate("/login")}>
         Login
       </ShadCNButton>
