@@ -1,9 +1,8 @@
-import { LayoutDashboard, Briefcase, Bookmark, Newspaper, Settings } from "lucide-react";
+import { BarChart3, Box, ClipboardListIcon, LucideRotateCcwClock, RotateCcwIcon } from "lucide-react";
 
 export const sidebarNav = [
-  { label: "Dashboard", icon: LayoutDashboard },
-  { label: "Portfolio", icon: Briefcase },
-  { label: "Watchlist", icon: Bookmark },
-  { label: "News", icon: Newspaper },
-  { label: "Settings", icon: Settings },
+  { label: "Stock Summary", icon: BarChart3 },
+  { label: "Stock Requests", icon: ClipboardListIcon },
+  { label: "Distribution Runs", icon: Box },
+  { label: "Return Approvals", icon: RotateCcwIcon },
 ];
